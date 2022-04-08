@@ -1,0 +1,36 @@
+.textDiv {
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: calc(4rem + 2vw);
+  margin-top: 14rem;
+  background: #fefefe;
+}
+
+.big {
+  font-size: calc(1rem + 3vw);
+  user-select: none;
+}
+
+#typed {
+  color: rgb(38, 94, 215);
+}
+
+#text {
+  letter-spacing: 1rem;
+  user-select: none;
+  font-size: calc(0.5rem + 2vw);
+}
+
+#text span {
+  color: rgb(38, 94, 215);
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .textDiv {
+    margin-top: calc(1rem + 10vh);
+    height: 30vh;
+  }
+}

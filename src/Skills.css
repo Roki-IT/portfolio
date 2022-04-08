@@ -1,0 +1,46 @@
+.skillsDiv {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background: #265ed7;
+  overflow: hidden;
+}
+
+.img {
+  width: 40rem;
+}
+
+.wawe {
+  aspect-ratio: 900/150;
+  background: url("./Images/wave-haikei.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.wawe2 {
+  aspect-ratio: 900/150;
+  background: url("./Images/wave-haikei2.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.skill-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 3rem;
+  flex-wrap: wrap;
+}
+
+.skillText {
+  width: 70%;
+  font-size: calc(1rem + 1vw);
+  color: #fefefe;
+  margin-bottom: 1rem;
+}
+
+.skillText h2 {
+  margin-bottom: 1rem;
+}
