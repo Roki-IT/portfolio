@@ -55,3 +55,8 @@ form textarea {
 .btn:hover {
   background: #0f3586;
 }
+
+.formPara {
+  color: red;
+  font-size: 2rem;
+}
